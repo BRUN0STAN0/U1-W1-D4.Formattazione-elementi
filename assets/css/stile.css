@@ -17,9 +17,12 @@ button {
     color: white;
     border: 0;
     font-weight: bold;
+    height: 25px;
 }
 
 input {
+    width: 75%;
+    height: 25px;
     border: 0;
     border-bottom: 1px dashed black;
 }
@@ -107,7 +110,7 @@ article p {
     margin: 15px 0;
 }
 
-article p:nth-child(2) {
+article>p:nth-child(2) {
     color: gray;
 }
 
@@ -148,6 +151,7 @@ section {
     background-color: #E3E3E4;
     margin: 10px 0;
     padding: 10px;
+    color: black;
 }
 
 iframe {
@@ -165,6 +169,11 @@ aside div {
     background-color: #E3E3E4;
     margin: 10px 0;
     padding: 10px;
+}
+
+aside div p:nth-child(3) {
+    text-align: end;
+    font-size: 14px;
 }
 
 /* FOOTER */
