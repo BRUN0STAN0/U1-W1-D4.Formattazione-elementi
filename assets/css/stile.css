@@ -1,15 +1,192 @@
 /* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url('../img/sfondo.png');
+    background-position: center;
+    font-family: "Poppins";
+    line-height: 20px;
+}
+
+hr {
+    opacity: 0;
+}
+
+button {
+    background-color: #3766CA;
+    color: white;
+    border: 0;
+    font-weight: bold;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px dashed black;
+}
+
+code {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+strong {
+    color: #A6377E;
+    font-weight: 600;
+}
+
+a {
+    color: #00A1C8;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
 
 /* HEADER */
+header {
+    width: 350px;
+    margin: 20px auto;
+    background-color: #01728A;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 30px;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0);
+}
+
+header img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    line-height: 20px;
+    padding: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
 
 /* MAIN */
 
+main {
+    width: 350px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgb(81, 81, 81);
+}
+
+main li {
+    margin: 0px 40px;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
+
+article {
+    padding: 20px;
+}
+
+article h1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+article p {
+    margin: 15px 0;
+}
+
+article p:nth-child(2) {
+    color: gray;
+}
 
 /* TABELLE */
 
+table {
+    text-align: center;
+    border-bottom: 2px solid #3766CA;
+}
+
+table caption {
+    font-weight: 500;
+}
+
+table thead {
+    background-color: #3766CA;
+    color: white;
+}
+
+table thead th {
+    width: 33%;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+table tbody tr {
+    line-height: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #F2F2F0;
+}
+
 /* FORM */
+
+section {
+    background-color: #E3E3E4;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+iframe {
+    border-radius: 20px;
+    margin: 10px 0;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
+aside {
+    padding: 20px;
+}
+
+aside div {
+    background-color: #E3E3E4;
+    margin: 10px 0;
+    padding: 10px;
+}
+
 /* FOOTER */
+
+footer {
+    width: 350px;
+    margin: 10px auto;
+    background-color: #055268;
+    color: white;
+    font-weight: 300;
+    box-shadow: 0px 4px 6px rgb(81, 81, 81);
+    text-align: center;
+}
+
+footer p {
+    padding: 15px;
+}
+
+footer address {
+    padding: 15px;
+}
+
+footer a {
+    color: #FF04F5;
+}
